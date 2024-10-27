@@ -120,6 +120,30 @@ The model is evaluated using the following statistical tools:
 # Feature Importance
 Using the RandomForestClassifier's build-in feature importance functions, we can rank features by their importance to the model:
 
+|          | Feature  | Importance |
+|----------|----------|----------|
+|     12     | W2_FLUX   | .120979   |
+|     0     | PSFFLUX_0   | .095173   |
+|     11     | W1_FLUX   | .094985   |
+|     1     | PSFFLUX_1   | .090424   |
+|     4     | PSFFLUX_4   | .088195   |
+|     2     | PSFFLUX_2   | .085659   |
+|     3     | PSFFLUX_3   | .084978   |
+|     6     | NUV   | .074282   |
+|     5     | FUV   | .069433   |
+|     17     | GAIA_G_FLUX_SNR   | .055556   |
+|     19     | GAIA_RP_FLUX_SNR   | .048642   |
+|     18     | GAIA_BP_FLUX_SNR   | .048599   |
+|     16     | GAIA_PARALLAX   | .043096   |
+|     9     | HFLUX   | .000000   |
+|     8     | JFLUX   | .000000   |
+|     7     | YFLUX   | .000000   |
+|     10     | KFLUX   | .000000   |
+|     15     | XMM_HARD_FLUX   | .000000   |
+|     13     | FIRST_FLUX   | .000000   |
+|     14     | XMM_SOFT_FLUX   | .000000   |
+
+
               Feature  Importance
 12           W2_FLUX    0.120979
 0          PSFFLUX_0    0.095173
