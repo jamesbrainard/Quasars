@@ -143,38 +143,15 @@ Using the RandomForestClassifier's build-in feature importance functions, we can
 |     13     | FIRST_FLUX   | .000000   |
 |     14     | XMM_SOFT_FLUX   | .000000   |
 
-
-              Feature  Importance
-12           W2_FLUX    0.120979
-0          PSFFLUX_0    0.095173
-11           W1_FLUX    0.094985
-1          PSFFLUX_1    0.090424
-4          PSFFLUX_4    0.088195
-2          PSFFLUX_2    0.085659
-3          PSFFLUX_3    0.084978
-6                NUV    0.074282
-5                FUV    0.069433
-17   GAIA_G_FLUX_SNR    0.055556
-19  GAIA_RP_FLUX_SNR    0.048642
-18  GAIA_BP_FLUX_SNR    0.048599
-16     GAIA_PARALLAX    0.043096
-9              HFLUX    0.000000
-8              JFLUX    0.000000
-7              YFLUX    0.000000
-10             KFLUX    0.000000
-15     XMM_HARD_FLUX    0.000000
-13        FIRST_FLUX    0.000000
-14     XMM_SOFT_FLUX    0.000000
-
 # Replication (Setup & Usage)
 1. Clone this repository:
-'''bash
-git clone https://github.com/jamesbrainard/quasars.git
-cd quasars
+
+        git clone https://github.com/jamesbrainard/quasars.git
+        cd quasars
 
 2. Install the necessary dependencies:
-'''bash
-pip install -r requirements.txt
+
+        pip install -r requirements.txt
 
 3. Run preprocessing.ipynb if data/Clean_Quasar_Data.csv is not already downloaded
 
